@@ -49,3 +49,8 @@ models:
       - name: supply_id
         tests:
           - not_null
+      - name: supply_uuid
+        tests:
+          - not_null
+          - unique
+      
