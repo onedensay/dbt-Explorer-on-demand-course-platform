@@ -18,10 +18,11 @@ models:
           - unique
           - not_null
       - name: status
-        description:  "{{ doc(order_status) }}"
+        description: "{{ doc(order_status) }}"
         data_tests:
           - accepted_values:
-              values: ['shipped','completed','return_pending','placed','returned']
+              values:
+                ["shipped", "completed", "return_pending", "placed", "returned"]
       - name: customer_id
         data_tests:
           - relationships:
