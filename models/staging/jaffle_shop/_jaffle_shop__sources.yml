@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: jaffle_shop
     description: a clone of a Postgres applocation database
-    database: raw
+    database: dbt_test_1
     schema: jaffle_shop
     tables:
       - name: customers

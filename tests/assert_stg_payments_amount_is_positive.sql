@@ -11,4 +11,4 @@ from
 group by
     order_id
 having
-    total_amount < 0
+    sum(amount)  < 0

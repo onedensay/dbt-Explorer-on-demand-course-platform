@@ -1,0 +1,11 @@
+mylocal_connect:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: superu
+      port: 5434
+      dbname: dbt_test_1
+      schema: dev
